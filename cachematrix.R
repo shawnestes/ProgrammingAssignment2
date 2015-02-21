@@ -1,4 +1,4 @@
-## The concept is to provide a resemblence of caching functions to mean values
+## The concept is to provide a resemblence of caching functions to matrix values
 ## on an inverted matrix. The exercise is more about lexical scoping and 
 ## the use of <-- than caching as this would likely never be used in production code.
 
@@ -7,7 +7,7 @@
 
 
 ## makeCacheMatrix: 
-## Set the values of both the vector and the mean
+## Set the values of both the vector and the inverse matrix
 ## Return those values
 
 makeCacheMatrix <- function(x = matrix()) {
